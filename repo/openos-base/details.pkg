@@ -1,0 +1,5 @@
+Name: OpenOS Base Utilities
+Description: Base UtilitiDependency: libget
+Dependency: libde
+Dependency: libtext
+Dependency: libget

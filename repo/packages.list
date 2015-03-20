@@ -1,0 +1,6 @@
+openos::3::The OpenOS Operating System
+openos-base::1::OpenOS Base Utilities
+openos-desktop::1::OpenOS Desktop Enviorment
+libget::1::A HTTP Downloading Library
+libtext::1::A Center Text Library
+libde::1::A Library powering the OpenOS Desktop

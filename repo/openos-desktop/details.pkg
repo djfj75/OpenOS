@@ -1,0 +1,3 @@
+Name: OpenOS Desktop
+Description: The OpenOS Desktop
+Dependency: openos-base
