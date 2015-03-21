@@ -1,6 +1,6 @@
 Name: OpenOS Desktop
 Description: The OpenOS Desktop
 Dependency: openos-base
-Executable: installer.lua
+Executable: desktop.lua
 Executable: wallpaper.bg
 Config: theme.conf
