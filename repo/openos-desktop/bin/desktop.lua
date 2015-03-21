@@ -29,6 +29,8 @@ print(" Shutdown ")
 term.setCursorPos(1,4)
 print(" Restart  ")
 term.setCursorPos(1,5)
+print(" Lua      ")
+term.setCursorPos(1,6)
 print("          ")
 end
  
@@ -52,6 +54,10 @@ local event, button, X, Y = os.pullEventRaw()
        os.shutdown()
        elseif X>=1 and X<=11 and Y==4 and button ==1 then slc = 0
        os.reboot()
+       elseif X>=1 and X<=11 and Y==4 and button ==1 then slc = 0
+        term.clear()
+        term.setCursorPos(1,1)
+        shell.run("lua")
        else
        slc = 0
        drawDesktop()
