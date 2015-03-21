@@ -1,5 +1,5 @@
 Name: OpenLib
 Description: Libraries needed to run OpenOS
-Config: libde
-Config: libget
-Config: libtext
+Library: libde
+Library: libget
+Library: libtext

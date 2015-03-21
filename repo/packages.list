@@ -1,4 +1,4 @@
-openos::3::The OpenOS Operating System
-openos-base::2::OpenOS Base Utilities
-openos-desktop::2::OpenOS Desktop Enviorment
-openlib::1::Libraries for OpenOS
+openos::4::The OpenOS Operating System
+openos-base::3::OpenOS Base Utilities
+openos-desktop::3::OpenOS Desktop Enviorment
+openlib::2::Libraries for OpenOS
