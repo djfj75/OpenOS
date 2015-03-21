@@ -36,7 +36,9 @@ end
  
 drawDesktop()
 while true do
-  term.setCursorPos(41,1)
+  term.setBackgroundColor(colors.blue)
+  term.setTextColor(colors.white)
+  term.setCursorPos(43,1)
   sleep(0.1)
   print(textutils.formatTime(os.time(), false))
 local event, button, X, Y = os.pullEventRaw()
