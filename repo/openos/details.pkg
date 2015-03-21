@@ -1,11 +1,5 @@
 Name: OpenOS
-
 Description: The OpenOS Operating System
-
 Startup: /openos-boot
-
 Dependency: openos-base
-
 Dependency: openos-desktop
-
-
