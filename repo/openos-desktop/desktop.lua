@@ -1,6 +1,6 @@
 
 slc = 0
-shell.run("/bin/desktop.lua")
+shell.run("/cfg/theme.conf")
 term.setBackgroundColor(backColor)
 term.clear()
 function titleBar()
@@ -14,7 +14,7 @@ end
 function drawDesktop()
   term.setBackgroundColor(backColor)
   term.clear()
-  bground = paintutils.loadImage(".background")
+  bground = paintutils.loadImage("/bin/wallpaper.bg")
   paintutils.drawImage(bground,1,1)
   titleBar()
 end

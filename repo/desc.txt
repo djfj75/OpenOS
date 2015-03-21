@@ -1,1 +1,1 @@
-OpenOS Public Release Repository
+OpenOS Development Release Repository
