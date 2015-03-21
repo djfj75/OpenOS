@@ -57,11 +57,13 @@ local event, button, X, Y = os.pullEventRaw()
        elseif X>=1 and X<=11 and Y==4 and button ==1 then slc = 0
        shell.run("fg","/bin/sketch")
        multishell.setTitle(1,"Desktop")
-       multishell.setTitle(multishell.getFocus(),"Sketch")
+       local m = multishell.getFocus()
+       multishell.setTitle(m,"Sketch")
        elseif X>=1 and X<=11 and Y==4 and button ==1 then slc = 0
         shell.run("fg","/bin/dynet/client/web")
         multishell.setTitle(1,"Desktop")
-        multishell.setTitle(multishell.getFocus(),"DyNet")
+        local m = multishell.getFocus()
+        multishell.setTitle(m,"DyNet")
        else
        slc = 0
        drawDesktop()
