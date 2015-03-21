@@ -1,0 +1,10 @@
+Name: DyNet
+Description: Dynamic Internet DDNS, Webserver, and Client
+Executable: dynet/client/web
+Executable: dynet/dns/dns
+Executable: dynet/dns/serverlist
+Executable: dynet/server/core
+Executable: dynet/server/filestart
+Executable: dynet/server/server
+Executable: dynet/server/settings
+Executable: dynet/server/wserver

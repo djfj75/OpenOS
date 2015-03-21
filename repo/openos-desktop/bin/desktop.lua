@@ -25,11 +25,11 @@ term.setBackgroundColor(128)
 term.setCursorPos(1,2)
 print("          ")
 term.setCursorPos(1,3)
-print(" Shutdown ")
-term.setCursorPos(1,4)
 print(" Restart  ")
+term.setCursorPos(1,4)
+print(" Sketch   ")
 term.setCursorPos(1,5)
-print(" Lua      ")
+print(" DyNet    ")
 term.setCursorPos(1,6)
 print("          ")
 end
@@ -53,11 +53,9 @@ local event, button, X, Y = os.pullEventRaw()
      if X >=1 and X <=11 and button == 1 and Y== 3 then slc = 0
        os.shutdown()
        elseif X>=1 and X<=11 and Y==4 and button ==1 then slc = 0
-       os.reboot()
+       shell.run("/bin/sketch")
        elseif X>=1 and X<=11 and Y==4 and button ==1 then slc = 0
-        term.clear()
-        term.setCursorPos(1,1)
-        shell.run("lua")
+        shell.run("/bin/dynet/client/web")
        else
        slc = 0
        drawDesktop()
