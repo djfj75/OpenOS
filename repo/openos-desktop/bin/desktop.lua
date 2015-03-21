@@ -14,7 +14,7 @@ end
 function drawDesktop()
   term.setBackgroundColor(backColor)
   term.clear()
-  bground = paintutils.loadImage("/bin/wallpaper.bg")
+  bground = paintutils.loadImage("/cfg/wallpaper.bg")
   paintutils.drawImage(bground,1,1)
   titleBar()
 end
