@@ -1,5 +1,16 @@
 --OpenOS Startup File
+print("Loading APIs...")
+OS.LoadAPI("/lib/libde")
+OS.LoadAPI("/lib/libtext")
+OS.LoadAPI("/lib/libget")
+print("Checking for updates...")
+shell.run("ac-get", "update")
+print("Running Splash...")
+
 term.setBackgroundColor(colors.white)
 term.clear()
+splashimage = paintutils.loadImage("/cfg/wallpaper.bg")
+paintutils.drawimage(splashimage,1,1)
+libtext.cPrint("OpenOS",12)
 sleep(0.5)
 shell.run("/bin/desktop")
