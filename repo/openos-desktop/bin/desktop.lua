@@ -36,7 +36,7 @@ end
  
 drawDesktop()
 while true do
-  term.setCursorPos(1,48)
+  term.setCursorPos(41,1)
   sleep(0.1)
   print(textutils.formatTime(os.time(), false))
 local event, button, X, Y = os.pullEventRaw()
@@ -53,9 +53,11 @@ local event, button, X, Y = os.pullEventRaw()
      if X >=1 and X <=11 and button == 1 and Y== 3 then slc = 0
        os.shutdown()
        elseif X>=1 and X<=11 and Y==4 and button ==1 then slc = 0
-       shell.run("/bin/sketch")
+       shell.run("fg","/bin/sketch")
+       multishell.setTitle(1,"Desktop")
+       multishell.setTitle(multishell.getFocus)
        elseif X>=1 and X<=11 and Y==4 and button ==1 then slc = 0
-        shell.run("/bin/dynet/client/web")
+        shell.run("fg","/bin/dynet/client/web")
        else
        slc = 0
        drawDesktop()
