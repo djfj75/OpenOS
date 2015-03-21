@@ -34,6 +34,9 @@ end
  
 drawDesktop()
 while true do
+  term.setCursorPos(1,48)
+  sleep(0.1)
+  print(print(textutils.formatTime(os.time(), false)))
 local event, button, X, Y = os.pullEventRaw()
   if slc == 0 then
     if event == "mouse_click" then
