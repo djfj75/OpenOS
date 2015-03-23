@@ -1,6 +1,0 @@
-openos::3::The OpenOS Operating System
-openos-base::2::OpenOS Base Utilities
-openos-desktop::2::OpenOS Desktop Enviorment
-libget::2::A HTTP Downloading Library
-libtext::3::A Center Text Library
-libde::2::A Library powering the OpenOS Desktop
