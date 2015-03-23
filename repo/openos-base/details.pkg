@@ -1,4 +1,0 @@
-Name: OpenOS Base Utilities
-Description: Base UtilitiDependency: libget
-Dependency: openlib
-Executable: updater
