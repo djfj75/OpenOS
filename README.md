@@ -2,7 +2,7 @@
 
 OpenOS is a ComputerCraft OS, that aims to be simple, powerful, and easy to use.
 
-## News ##
+##News#
 
 Currently we are working on a lot of things, so please check the feature list, below the download section.
 
@@ -13,6 +13,8 @@ To install OpenOS, run our Pastebin installer
 ```
 pastebin run Zae4BFi3
 ```
+
+##Features#
 
 ##Screenshots#
 
