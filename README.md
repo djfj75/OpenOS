@@ -11,8 +11,10 @@ Currently we are working on a lot of things, so please check the feature list, b
 To install OpenOS, run our Pastebin installer
 
 ```
-pastebin run Zae4BFi3
+pastebin run <unavalible>
 ```
+
+If in the rare case our pastebin installer is unavalible, please goto our installation guide [here.](https://github.com/djfj74/OpenOS/wiki/Installation-Guide)
 
 ##Features#
 
